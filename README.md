@@ -1,4 +1,4 @@
-# Dr Zia Ush Shamszaman — Personal Website
+# Dr Zia Ush Shamszaman
 
 A custom static website for GitHub Pages.
 

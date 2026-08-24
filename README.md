@@ -1,4 +1,4 @@
-# Dr Zia Ush Shamszaman
+# Dr Zia Ush Shamszaman — Personal Website
 
 A custom static website for GitHub Pages.
 
@@ -36,3 +36,15 @@ A custom static website for GitHub Pages.
 - `assets/js/site.js` — Mobile navigation
 
 No template or build system is required.
+
+## V2 changes
+- KTP corrected to Academic Support and moved to the final project item.
+- OPERA, CyberThemis, Qnergy-Sec, SafeSCMS and iShield given greater prominence.
+
+## V3 changes
+- Added professional profile photograph.
+- Added King's / professional credential strip.
+- Rebuilt homepage around a clearer research identity.
+- Replaced publication placeholders with verified selected outputs.
+- Strengthened editorial, peer-review and professional-service content.
+- Corrected KTP positioning as Academic Support and retained it only on the full Projects page.

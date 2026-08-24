@@ -1,9 +1,12 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dr Zia Ush Shamszaman — Cybersecurity, AI Security, Trustworthy AI and Multi-Agent Systems.">
+  <meta name="description" content="Dr Zia Ush Shamszaman, Cybersecurity, AI Security, Trustworthy AI and Multi-Agent Systems.">
   <title>Home | Dr Zia Ush Shamszaman</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -24,6 +27,7 @@
 <a href="leadership.html">Leadership</a>
 <a href="service.html">Service</a>
 <a href="impact.html">Impact</a>
+      <a href="insights.html">Insights</a>
 <a href="contact.html">Contact</a>
     </nav>
   </div>
@@ -76,7 +80,7 @@
     <div class="cards three">
       <article class="card"><h3>AI Security</h3><p>Adversarial AI, model security, poisoning, prompt and tool misuse, assurance and secure deployment.</p></article>
       <article class="card"><h3>Agentic & Multi-Agent AI</h3><p>Trust, cooperation, competition, coordinated pressure, strategic behaviour and security among interacting autonomous agents.</p></article>
-      <article class="card"><h3>Evolutionary Game Theory</h3><p>Adaptive attacker–defender dynamics, incentives, commitment, cooperation and security mechanisms that evolve over time.</p></article>
+      <article class="card"><h3>Evolutionary Game Theory</h3><p>Adaptive attacker-defender dynamics, incentives, commitment, cooperation and security mechanisms that evolve over time.</p></article>
       <article class="card"><h3>Federated & Collaborative AI</h3><p>Distributed learning under poisoning, backdoor, collusion and strategically unreliable clients.</p></article>
       <article class="card"><h3>AI Governance & Safety</h3><p>Responsible deployment, accountability, assurance, media and regulatory incentives, and trustworthy AI adoption.</p></article>
       <article class="card"><h3>Cyber-Physical & High-Stakes AI</h3><p>Healthcare AI, IoT/AIoT, secure connected systems and applied intelligent decision support.</p></article>
@@ -97,7 +101,7 @@
       <article class="feature-pub">
         <span class="pub-year">2026</span>
         <h3>Co-evolutionary Dynamics of Attack and Defence in Cybersecurity</h3>
-        <p><em>Knowledge-Based Systems</em> · Adaptive attacker–defender populations, defence intensity and evolutionary stability.</p>
+        <p><em>Knowledge-Based Systems</em> · Adaptive attacker-defender populations, defence intensity and evolutionary stability.</p>
         <a class="text-link" href="publications.html">Publication details →</a>
       </article>
       <article class="feature-pub">
@@ -131,6 +135,29 @@
       <div><p class="eyebrow">Education</p><h2>Research-led teaching at scale</h2><p>Cybersecurity, AI, ethics, distributed systems and postgraduate research, informed by curriculum leadership, online and international delivery, and large-cohort supervision.</p><a class="text-link" href="teaching.html">Teaching & supervision →</a></div>
       <div><p class="eyebrow">Academic contribution</p><h2>Leadership, service and impact</h2><p>Externally funded innovation, editorial leadership, peer review, professional service, industry engagement and public-facing impact.</p><a class="text-link" href="leadership.html">Leadership →</a> &nbsp; <a class="text-link" href="service.html">Service →</a> &nbsp; <a class="text-link" href="impact.html">Impact →</a></div>
     </div>
+  </div>
+</section>
+
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="section-head"><p class="eyebrow">Latest insights</p><h2>Research commentary & professional posts</h2></div>
+    {% assign home_insights = site.insights | where_exp: "item", "item.published != false" | sort: "date" | reverse %}
+    {% if home_insights.size > 0 %}
+    <div class="cards three">
+      {% for post in home_insights limit:3 %}
+      <article class="card">
+        <span class="tag">{{ post.platform | default: "Insight" }}{% if post.category %} · {{ post.category }}{% endif %}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+        <a class="text-link" href="{{ post.url | relative_url }}">Read →</a>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="center"><a class="text-link" href="insights.html">View all Insights →</a></p>
+    {% else %}
+    <p class="note">New research commentary and professional posts will appear here automatically when published through the Insights editor.</p>
+    {% endif %}
   </div>
 </section>
 

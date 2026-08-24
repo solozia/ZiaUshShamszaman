@@ -1,0 +1,15 @@
+title: Dr Zia Ush Shamszaman
+url: "https://solozia.github.io"
+collections:
+  insights:
+    output: true
+    permalink: /insights/:name/
+defaults:
+  - scope:
+      path: ""
+      type: insights
+    values:
+      layout: insight
+      published: true
+exclude:
+  - README.md

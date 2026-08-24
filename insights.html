@@ -1,0 +1,55 @@
+---
+layout: null
+title: Insights
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Insights and professional posts from Dr Zia Ush Shamszaman on cybersecurity, AI security, trustworthy AI and related topics.">
+  <title>Insights | Dr Zia Ush Shamszaman</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><span class="brand-name">Dr Zia Ush Shamszaman</span><span class="brand-sub">Cybersecurity · AI Security · Trustworthy AI</span></a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="projects.html">Projects</a><a href="teaching.html">Teaching</a><a href="leadership.html">Leadership</a><a href="service.html">Service</a><a href="impact.html">Impact</a><a href="insights.html" class="active">Insights</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="wrap narrow"><p class="eyebrow">Insights</p><h1>Cybersecurity, AI & Research Commentary</h1><p class="lead">A growing archive of my professional posts, research commentary, event reflections and public-facing discussion. New entries are managed through a simple editor and appear here automatically.</p></div></section>
+
+<section class="section"><div class="wrap">
+  <div class="insight-toolbar">
+    <div><strong>Latest first</strong><p>LinkedIn posts, research commentary, talks and professional reflections.</p></div>
+    <a class="button" href="https://www.linkedin.com/in/zia-ush-shamszaman/" target="_blank" rel="noopener">LinkedIn profile</a>
+  </div>
+
+  {% assign visible_insights = site.insights | where_exp: "item", "item.published != false" | sort: "date" | reverse %}
+  {% if visible_insights.size > 0 %}
+  <div class="insights-grid">
+    {% for post in visible_insights %}
+    <article class="insight-card">
+      {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt=""></a>{% endif %}
+      <div class="insight-content">
+        <div class="insight-meta"><span>{{ post.date | date: "%d %B %Y" }}</span>{% if post.platform %}<span>{{ post.platform }}</span>{% endif %}{% if post.category %}<span>{{ post.category }}</span>{% endif %}</div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+        <div class="insight-actions"><a class="text-link" href="{{ post.url | relative_url }}">Read note →</a>{% if post.external_url %}<a class="text-link" href="{{ post.external_url }}" target="_blank" rel="noopener">Original post →</a>{% endif %}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-insights"><h2>Insights are ready to publish</h2><p>The content system is configured. When you publish your first entry through Pages CMS, it will appear here automatically, without editing this webpage.</p></div>
+  {% endif %}
+</div></section>
+</main>
+<footer><div class="wrap footer-grid"><div><strong>Dr Zia Ush Shamszaman</strong><br>Cybersecurity · AI Security · Trustworthy AI · Multi-Agent Systems</div><div>Department of Informatics<br>King's College London</div><div><a href="mailto:zia_ush.shamszaman@kcl.ac.uk">zia_ush.shamszaman@kcl.ac.uk</a><br><a href="mailto:z.u.shamszaman@gmail.com">z.u.shamszaman@gmail.com</a></div></div></footer>
+<script src="assets/js/site.js"></script>
+</body></html>

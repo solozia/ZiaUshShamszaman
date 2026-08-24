@@ -43,3 +43,25 @@ Each entry can store:
 * full text or a short website note
 
 This lets the website act as a permanent archive even when the original post lives on LinkedIn or another network.
+
+
+## V6
+
+V6 changes the Insights area into a blog and social-feed style page.
+
+The public page now includes:
+* a profile panel
+* a Create / Manage Posts button
+* a post composer style entry point
+* a chronological feed
+* topic labels
+* image posts
+* original social post links
+* full article pages
+
+Actual editing remains private through Pages CMS, which keeps GitHub credentials off the public website.
+
+Incomplete public placeholders now use only `TBA`.
+
+## V7
+V7 strengthens the site as an evidence-rich academic profile. It adds profile metrics, research-theme navigation, clearer teaching evidence, collaboration networks, leadership categories and structured professional service, while retaining the V6 blog-style Insights publishing workflow.

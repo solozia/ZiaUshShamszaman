@@ -1,21 +1,69 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.summary | default: page.title | escape }}">
   <title>{{ page.title }} | Dr Zia Ush Shamszaman</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-<header class="site-header"><div class="wrap header-inner">
-<a class="brand" href="{{ '/index.html' | relative_url }}"><span class="brand-name">Dr Zia Ush Shamszaman</span><span class="brand-sub">Cybersecurity · AI Security · Trustworthy AI</span></a>
-<button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
-<nav class="nav" aria-label="Main navigation"><a href="{{ '/index.html' | relative_url }}">Home</a><a href="{{ '/research.html' | relative_url }}">Research</a><a href="{{ '/publications.html' | relative_url }}">Publications</a><a href="{{ '/projects.html' | relative_url }}">Projects</a><a href="{{ '/teaching.html' | relative_url }}">Teaching</a><a href="{{ '/leadership.html' | relative_url }}">Leadership</a><a href="{{ '/service.html' | relative_url }}">Service</a><a href="{{ '/impact.html' | relative_url }}">Impact</a><a href="{{ '/insights.html' | relative_url }}" class="active">Insights</a><a href="{{ '/contact.html' | relative_url }}">Contact</a></nav>
-</div></header>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/index.html' | relative_url }}">
+      <span class="brand-name">Dr Zia Ush Shamszaman</span>
+      <span class="brand-sub">Cybersecurity · AI Security · Trustworthy AI</span>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="{{ '/index.html' | relative_url }}">Home</a>
+      <a href="{{ '/research.html' | relative_url }}">Research</a>
+      <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+      <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+      <a href="{{ '/teaching.html' | relative_url }}">Teaching</a>
+      <a href="{{ '/leadership.html' | relative_url }}">Leadership</a>
+      <a href="{{ '/service.html' | relative_url }}">Service</a>
+      <a href="{{ '/impact.html' | relative_url }}">Impact</a>
+      <a href="{{ '/insights.html' | relative_url }}" class="active">Insights</a>
+      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section class="page-hero"><div class="wrap narrow"><p class="eyebrow">{{ page.platform | default: "Insight" }}{% if page.category %} · {{ page.category }}{% endif %}</p><h1>{{ page.title }}</h1><p class="affiliation">{{ page.date | date: "%d %B %Y" }}</p>{% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}</div></section>
-<section class="section"><div class="wrap narrow insight-article">{% if page.image %}<img class="insight-hero-image" src="{{ page.image }}" alt="">{% endif %}<div class="prose">{{ content }}</div>{% if page.external_url %}<div class="actions"><a class="button primary" href="{{ page.external_url }}" target="_blank" rel="noopener">View original post</a></div>{% endif %}<p class="back-link"><a href="{{ '/insights.html' | relative_url }}">← Back to Insights</a></p></div></section>
+<section class="section article-page">
+  <div class="wrap article-shell">
+    <article class="article-card">
+      <div class="article-author">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Dr Zia Ush Shamszaman">
+        <div>
+          <strong>Dr Zia Ush Shamszaman</strong>
+          <span>{{ page.date | date: "%d %B %Y" }}{% if page.platform %} · {{ page.platform }}{% endif %}</span>
+        </div>
+      </div>
+
+      {% if page.category %}<span class="feed-topic">{{ page.category }}</span>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+      {% if page.image %}<img class="article-image" src="{{ page.image }}" alt="">{% endif %}
+      <div class="prose">{{ content }}</div>
+
+      <div class="article-actions">
+        {% if page.external_url %}<a class="button primary" href="{{ page.external_url }}" target="_blank" rel="noopener">View original post</a>{% endif %}
+        <a class="button" href="{{ '/insights.html' | relative_url }}">Back to Insights</a>
+      </div>
+    </article>
+  </div>
+</section>
 </main>
-<footer><div class="wrap footer-grid"><div><strong>Dr Zia Ush Shamszaman</strong><br>Cybersecurity · AI Security · Trustworthy AI · Multi-Agent Systems</div><div>Department of Informatics<br>King's College London</div><div><a href="mailto:zia_ush.shamszaman@kcl.ac.uk">zia_ush.shamszaman@kcl.ac.uk</a><br><a href="mailto:z.u.shamszaman@gmail.com">z.u.shamszaman@gmail.com</a></div></div></footer>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div><strong>Dr Zia Ush Shamszaman</strong><br>Cybersecurity · AI Security · Trustworthy AI · Multi-Agent Systems</div>
+    <div>Department of Informatics<br>King's College London</div>
+    <div><a href="mailto:zia_ush.shamszaman@kcl.ac.uk">zia_ush.shamszaman@kcl.ac.uk</a><br><a href="mailto:z.u.shamszaman@gmail.com">z.u.shamszaman@gmail.com</a></div>
+  </div>
+</footer>
 <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
-</body></html>
+</body>
+</html>

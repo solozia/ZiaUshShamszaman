@@ -1,9 +1,1 @@
-
-const btn = document.querySelector('.menu-button');
-const nav = document.querySelector('.nav');
-if (btn && nav) {
-  btn.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-}
+const b=document.querySelector('.menu-button'),n=document.querySelector('.nav');if(b&&n)b.onclick=()=>n.classList.toggle('open');

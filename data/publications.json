@@ -1,0 +1,905 @@
+[
+  {
+    "id": "curated-001",
+    "year": 2026,
+    "title": "Strategic commitments shape collective cybersecurity under AI inequality",
+    "authors": [
+      "A Bashir",
+      "ZU Shamszaman",
+      "Z Song",
+      "M Perc",
+      "TA Han"
+    ],
+    "venue": "Chaos, Solitons & Fractals 210, 118728",
+    "themes": [
+      "Evolutionary game theory",
+      "Cybersecurity",
+      "AI governance"
+    ],
+    "url": "https://solozia.github.io/ZiaUshShamszaman/publications.html",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 6,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-002",
+    "year": 2026,
+    "title": "Co-evolutionary dynamics of attack and defence in cybersecurity",
+    "authors": [
+      "A Bashir",
+      "ZU Shamszaman",
+      "Z Song",
+      "TA Han"
+    ],
+    "venue": "Knowledge-Based Systems",
+    "themes": [
+      "Evolutionary game theory",
+      "Cybersecurity"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 15,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-003",
+    "year": 2026,
+    "title": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+    "authors": [
+      "N Nourmohammadi",
+      "MM Hossain",
+      "TA Han",
+      "SS Ara",
+      "ZU Shamszaman"
+    ],
+    "venue": "arXiv:2602.14158",
+    "themes": [
+      "Multi-agent AI",
+      "Healthcare AI",
+      "Responsible AI"
+    ],
+    "url": "https://arxiv.org/abs/2602.14158",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-004",
+    "year": 2025,
+    "title": "SelfHeal: A Self-Healing AI Control Framework for Autonomous Recovery from Unsafe Behaviour",
+    "authors": [
+      "ZU Shamszaman",
+      "B Sardar",
+      "S Islam",
+      "S Papastergiou",
+      "B Yashashvisindhu"
+    ],
+    "venue": "Authorea Preprints",
+    "themes": [
+      "AI safety",
+      "Cybersecurity"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-005",
+    "year": 2025,
+    "title": "SatNet-B3: A Lightweight Deep Edge Intelligence Framework for Satellite Imagery Classification",
+    "authors": [
+      "T Hasan",
+      "J Anjom",
+      "MIA Hossain",
+      "ZU Shamszaman"
+    ],
+    "venue": "Future Internet 17(12), 579",
+    "themes": [
+      "Edge AI",
+      "Machine learning"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 1,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-006",
+    "year": 2025,
+    "title": "Many-to-One Adversarial Consensus: Exposing Multi-Agent Collusion Risks in AI-Based Healthcare",
+    "authors": [
+      "A Bashir",
+      "ZU Shamszaman"
+    ],
+    "venue": "arXiv:2512.03097",
+    "themes": [
+      "Multi-agent AI",
+      "AI safety",
+      "Healthcare AI"
+    ],
+    "url": "https://arxiv.org/abs/2512.03097",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 6,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-007",
+    "year": 2025,
+    "title": "Blockchain-Based Authentication System for Pharmaceutical Product Verification",
+    "authors": [
+      "B Okpara",
+      "ZU Shamszaman",
+      "S Ghareeb",
+      "JM Kazan"
+    ],
+    "venue": "18th International Conference on Development in eSystem Engineering",
+    "themes": [
+      "Cybersecurity",
+      "Blockchain"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-008",
+    "year": 2025,
+    "title": "Predicting Antimicrobial Resistance (AMR) in Campylobacter, a Foodborne Pathogen, and Cost Burden Analysis Using Machine Learning",
+    "authors": [
+      "S Mishra",
+      "TA Han",
+      "BS Lopes",
+      "S Ghareeb",
+      "ZU Shamszaman"
+    ],
+    "venue": "arXiv:2509.03551",
+    "themes": [
+      "Healthcare AI",
+      "Machine learning"
+    ],
+    "url": "https://arxiv.org/abs/2509.03551",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 5,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-009",
+    "year": 2025,
+    "title": "Ripple effect of data bias in intelligent data-driven support systems",
+    "authors": [
+      "B Yashashvi",
+      "K Kabir",
+      "MA Hossian",
+      "Y Darith",
+      "ZU Shamszaman"
+    ],
+    "venue": "International Conference on Software, Knowledge, Information Management",
+    "themes": [
+      "Responsible AI",
+      "Machine learning"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-010",
+    "year": 2025,
+    "title": "Benchmarking Classical, Deep, and Generative Models for Human Activity Recognition",
+    "authors": [
+      "MM Hossain",
+      "TA Han",
+      "SS Ara",
+      "ZU Shamszaman"
+    ],
+    "venue": "arXiv:2501.08471",
+    "themes": [
+      "Machine learning",
+      "Healthcare AI"
+    ],
+    "url": "https://arxiv.org/abs/2501.08471",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 18,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-011",
+    "year": 2024,
+    "title": "Enhancing Cancer Diagnosis with Explainable & Trustworthy Deep Learning Models",
+    "authors": [
+      "BI Olumuyiwa",
+      "TA Han",
+      "ZU Shamszaman"
+    ],
+    "venue": "arXiv:2412.17527",
+    "themes": [
+      "Healthcare AI",
+      "Responsible AI"
+    ],
+    "url": "https://arxiv.org/abs/2412.17527",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 8,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-012",
+    "year": 2023,
+    "title": "Job-Matching Chatbots Powered by T5: A Comparative Performance Study with GPT-2",
+    "authors": [
+      "S Soltanmohammadi",
+      "ZU Shamszaman",
+      "G Shatha",
+      "M Jamila"
+    ],
+    "venue": "16th International Conference on Developments in eSystems Engineering",
+    "themes": [
+      "Machine learning",
+      "Responsible AI"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 2,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-013",
+    "year": 2023,
+    "title": "Deep edge intelligence-based solution for heart failure prediction in ambient assisted living",
+    "authors": [
+      "MIA Hossain",
+      "A Tabassum",
+      "ZU Shamszaman"
+    ],
+    "venue": "Discover Internet of Things 3(1), 11",
+    "themes": [
+      "Healthcare AI",
+      "Edge AI"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 11,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-014",
+    "year": 2021,
+    "title": "Cyber threat predictive analytics for improving cyber supply chain security",
+    "authors": [
+      "A Yeboah-Ofori",
+      "S Islam",
+      "SW Lee",
+      "ZU Shamszaman",
+      "K Muhammad"
+    ],
+    "venue": "IEEE Access 9, 94318–94337",
+    "themes": [
+      "Cybersecurity",
+      "Machine learning"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 198,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-015",
+    "year": 2019,
+    "title": "Enabling cognitive contributory societies using SIoT: QoS aware real-time virtual object management",
+    "authors": [
+      "ZU Shamszaman",
+      "MI Ali"
+    ],
+    "venue": "Journal of Parallel and Distributed Computing 123, 61–68",
+    "themes": [
+      "IoT",
+      "Distributed systems"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 12,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-016",
+    "year": 2018,
+    "title": "Towards a smart society through semantic virtual-object enabled real-time management framework in the social internet of things",
+    "authors": [
+      "ZU Shamszaman",
+      "MI Ali"
+    ],
+    "venue": "IEEE Internet of Things Journal 5(4), 2572–2579",
+    "themes": [
+      "IoT",
+      "Distributed systems"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 36,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-017",
+    "year": 2017,
+    "title": "Real-time data analytics and event detection for IoT-enabled communication systems",
+    "authors": [
+      "MI Ali",
+      "N Ono",
+      "M Kaysar",
+      "ZU Shamszaman",
+      "TL Pham",
+      "F Gao",
+      "K Griffin"
+    ],
+    "venue": "Journal of Web Semantics 42, 19–37",
+    "themes": [
+      "IoT",
+      "Distributed systems"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 69,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-018",
+    "year": 2014,
+    "title": "Web-of-objects based user-centric semantic service composition methodology in the internet of things",
+    "authors": [
+      "SS Ara",
+      "ZU Shamszaman",
+      "I Chong"
+    ],
+    "venue": "International Journal of Distributed Sensor Networks 10(5), 482873",
+    "themes": [
+      "IoT",
+      "Distributed systems"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 49,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-019",
+    "year": 2014,
+    "title": "Web-of-Objects (WoO)-based context aware emergency fire management systems for the Internet of Things",
+    "authors": [
+      "ZU Shamszaman",
+      "SS Ara",
+      "I Chong",
+      "YK Jeong"
+    ],
+    "venue": "Sensors 14(2), 2944–2966",
+    "themes": [
+      "IoT",
+      "Cybersecurity"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 57,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-020",
+    "year": 2013,
+    "title": "Feasibility considerations of multipath TCP in dealing with big data application",
+    "authors": [
+      "ZU Shamszaman",
+      "SS Ara",
+      "I Chong"
+    ],
+    "venue": "ICOIN 2013, 708–713",
+    "themes": [
+      "Distributed systems",
+      "IoT"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 13,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "curated-021",
+    "year": 2005,
+    "title": "A Mobility Management Scheme in All-IP Integrated Network",
+    "authors": [
+      "Z Ush-Shamszaman",
+      "MS Bashar",
+      "MA Razzaque",
+      "SS Ara",
+      "JK Sumi"
+    ],
+    "venue": "Parallel and Distributed Computing and Networks, 32–37",
+    "themes": [
+      "Distributed systems"
+    ],
+    "url": "",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "curated-v2",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 3,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-001",
+    "year": 2026,
+    "title": "Network Reciprocity Shapes Evolutionary Cybersecurity Dynamics",
+    "authors": [
+      "A Bashir",
+      "ZU Shamszaman",
+      "Z Song",
+      "TA Han"
+    ],
+    "venue": "Applied Mathematics and Computation",
+    "themes": [],
+    "url": "https://www.sciencedirect.com/science/article/pii/S009630032600425X",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 1,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-002",
+    "year": 2026,
+    "title": "TRAJECT-X: Temporal Representation and Advanced Joint Clustering for Educational Trajectory Exploration",
+    "authors": [
+      "Shatha Ghareeb",
+      "Rawaa Aljumeily",
+      "Ndidi Bianca Ogbo",
+      "Yordanka Karayaneva"
+    ],
+    "venue": "TechRxiv",
+    "themes": [],
+    "url": "https://www.techrxiv.org/users/1012577/articles/1389717-traject-x-temporal",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-003",
+    "year": 2023,
+    "title": "Enhancing Stock Price Forecasting: Integrating Supply Chain Factors into LSTM Models and Comparative Performance Analysis",
+    "authors": [
+      "M Zhou",
+      "S Ghareeb",
+      "ZU Shamszaman",
+      "J Mustafina"
+    ],
+    "venue": "16th International Conference on Developments in eSystems Engineering",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 2,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-004",
+    "year": 2023,
+    "title": "Utilizing Ensemble Approach for Predictive Customer Clustering Analysis with Unsupervised Cluster Labeling",
+    "authors": [
+      "M Atunwa",
+      "SZ Ush",
+      "GR Shatha",
+      "M Jamila"
+    ],
+    "venue": "16th International Conference on Developments in eSystems Engineering",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 2,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-005",
+    "year": 2023,
+    "title": "Research and Implementation of Handwritten Chinese Character Recognition Based on Deep Learning Algorithm",
+    "authors": [
+      "Z Wang",
+      "S Ghareeb",
+      "J Mustafina",
+      "ZU Shamszaman"
+    ],
+    "venue": "16th International Conference on Developments in eSystems Engineering",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-006",
+    "year": 2022,
+    "title": "A Statistical Analysis of the Staff Data to Evaluate the Influence of the Retention Factors in the NHS England",
+    "authors": [
+      "S Ahmed",
+      "MA Hossain",
+      "ZU Shamszaman"
+    ],
+    "venue": "International Conference on Software, Knowledge, Information Management",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 2,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-007",
+    "year": 2022,
+    "title": "Groundwater contamination in the north-east of the UK: Exploring and projecting pollution trends using the Environment Agency data archives",
+    "authors": [
+      "N Samlani",
+      "L Akanji",
+      "ZU Shamszaman",
+      "T Pak"
+    ],
+    "venue": "International Society of Porous Media Annual Meeting",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-008",
+    "year": 2017,
+    "title": "On the need for applications aware adaptive middleware in real-time RDF data analysis",
+    "authors": [
+      "ZU Shamszaman",
+      "MI Ali"
+    ],
+    "venue": "OTM Confederated International Conferences",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 4,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-009",
+    "year": 2015,
+    "title": "On the need for adaptivity in rdf stream processing",
+    "authors": [
+      "ZU Shamszaman",
+      "MI Ali",
+      "A Mileo"
+    ],
+    "venue": "Publication venue not specified in snapshot",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 1,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-010",
+    "year": 2014,
+    "title": "Adaptive Stream Query Processing Approach for Linked Stream Data",
+    "authors": [
+      "ZU Shamszaman"
+    ],
+    "venue": "Web Reasoning and Rule Systems (RR 2014)",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 3,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-snapshot-011",
+    "year": 2014,
+    "title": "WoO based user centric Energy Management System in the internet of things",
+    "authors": [
+      "ZU Shamszaman",
+      "S Lee",
+      "I Chong"
+    ],
+    "venue": "ICOIN 2014, 475–480",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "google-scholar-pdf-2026-09-02",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 31,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-nov-2026-001",
+    "year": 2026,
+    "title": "Social Physics of Cybersecurity",
+    "authors": [
+      "A Bashir",
+      "ZU Shamszaman",
+      "M Perc"
+    ],
+    "venue": "Frontiers in Physics 14, 1984375",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 1,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-nov-2026-002",
+    "year": 2026,
+    "title": "False Consensus in Multi-Agent Clinical AI: Ethical Risks of Collusion and Verifier-Based Defences",
+    "authors": [
+      "Adeela Bashir",
+      "Zia Ush Shamszaman",
+      "Zhao Song",
+      "The Anh Han"
+    ],
+    "venue": "Proceedings of the First Workshop on Ethics in Clinical AI Applications",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": null,
+    "scholar_snapshot_date": "2026-11-05"
+  },
+  {
+    "id": "scholar-nov-2026-003",
+    "year": 2026,
+    "title": "Trust as monitoring: Evolutionary dynamics of user trust and ai developer behaviour",
+    "authors": [
+      "A Bashir",
+      "Z Song",
+      "NB Ogbo",
+      "N Balabanova",
+      "M Smit",
+      "C Leung",
+      "P Bova"
+    ],
+    "venue": "IJCAI / arXiv:2603.24742",
+    "themes": [],
+    "url": "https://arxiv.org/abs/2603.24742",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 1,
+    "scholar_snapshot_date": "2026-11-05",
+    "authors_incomplete": true
+  },
+  {
+    "id": "scholar-nov-2026-004",
+    "year": 2025,
+    "title": "Media and responsible AI governance: a game-theoretic and LLM analysis",
+    "authors": [
+      "N Balabanova",
+      "A Bashir",
+      "P Bova",
+      "A Buscemi",
+      "T Cimpeanu"
+    ],
+    "venue": "arXiv:2503.09858",
+    "themes": [],
+    "url": "https://arxiv.org/abs/2503.09858",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 19,
+    "scholar_snapshot_date": "2026-11-05",
+    "authors_incomplete": true
+  },
+  {
+    "id": "scholar-nov-2026-005",
+    "year": 2025,
+    "title": "Do LLMs trust AI regulation? Emerging behaviour of game-theoretic LLM agents",
+    "authors": [
+      "A Buscemi",
+      "D Proverbio",
+      "P Bova",
+      "N Balabanova",
+      "A Bashir",
+      "T Cimpeanu"
+    ],
+    "venue": "arXiv:2504.08640",
+    "themes": [],
+    "url": "https://arxiv.org/abs/2504.08640",
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 17,
+    "scholar_snapshot_date": "2026-11-05",
+    "authors_incomplete": true
+  },
+  {
+    "id": "scholar-nov-2026-006",
+    "year": 2025,
+    "title": "Can Media Act as a Soft Regulator of Safe AI Development? A Game Theoretical Analysis",
+    "authors": [
+      "HC da Fonseca",
+      "A Fernandes",
+      "Z Song",
+      "T Cimpeanu",
+      "N Balabanova"
+    ],
+    "venue": "Artificial Life Conference Proceedings 37 (1), 90",
+    "themes": [],
+    "url": null,
+    "doi": null,
+    "cited_by_count": null,
+    "referenced_works": [],
+    "abstract": "",
+    "source": "researcher-supplied-google-scholar-2026-11-05",
+    "verification": "review-needed",
+    "scholar_snapshot_citations": 3,
+    "scholar_snapshot_date": "2026-11-05",
+    "authors_incomplete": true
+  }
+]

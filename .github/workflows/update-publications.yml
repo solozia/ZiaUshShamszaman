@@ -25,7 +25,10 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade requests
 
+      
       - name: Update publication data
+        env:
+          OPENALEX_AUTHOR_ID: A5000695312
         run: python scripts/update_publications.py
 
       - name: Commit publication changes

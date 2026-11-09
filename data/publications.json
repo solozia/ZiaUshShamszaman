@@ -16,11 +16,30 @@
     "url": "https://doi.org/10.48550/arxiv.2602.14158",
     "abstract": "Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence retrieval, uncertainty estimation, and bias checks to improve answer reliability. Our approach has two phases. First, we fine-tune three representative LLM families (GPT, LLaMA, and DeepSeek R1) on MedQuAD-derived medical QA data (20k+ question-answer pairs across multiple NIH domains) and benchmark generation quality. DeepSeek R1 achieves the strongest scores (ROUGE-1 0.536 +- 0.04; ROUGE-2 0.226 +-0.03; BLEU 0.098 -+ 0.018) and substantially outperforms the specialised biomedical baseline BioGPT in zero-shot evaluation. Second, we implement a modular multi-agent pipeline in which a Clinical Reasoning agent (fine-tuned LLaMA) produces structured explanations, an Evidence Retrieval agent queries PubMed to ground responses in recent literature, and a Refinement agent (DeepSeek R1) improves clarity and factual consistency; an optional human validation path is triggered for high-risk or high-uncertainty cases. Safety mechanisms include Monte Carlo dropout and perplexity-based uncertainty scoring, plus lexical and sentiment-based bias detection supported by LIME/SHAP-based analyses. In evaluation, the full system achieves 87% accuracy with relevance around 0.80, and evidence augmentation reduces uncertainty (perplexity 4.13) compared to base responses, with mean end-to-end latency of 36.5 seconds under the reported configuration. Overall, the results indicate that agent specialisation and verification layers can mitigate key single-model limitations and provide a practical, extensible design for evidence-based and bias-aware medical AI.",
     "cited_by_count": 0,
-    "referenced_works": [],
+    "referenced_works": [
+      "https://openalex.org/W2187613434",
+      "https://openalex.org/W2768488789",
+      "https://openalex.org/W2899768131",
+      "https://openalex.org/W2903777941",
+      "https://openalex.org/W2911489562",
+      "https://openalex.org/W2934399013",
+      "https://openalex.org/W2951965145",
+      "https://openalex.org/W3006881356",
+      "https://openalex.org/W3087776590",
+      "https://openalex.org/W4205164650",
+      "https://openalex.org/W4297253404",
+      "https://openalex.org/W4322718191",
+      "https://openalex.org/W4384561707",
+      "https://openalex.org/W4391148660",
+      "https://openalex.org/W4406152279",
+      "https://openalex.org/W4407565760",
+      "https://openalex.org/W4409862577",
+      "https://openalex.org/W4414281281"
+    ],
     "themes": [
-      "Multi-agent AI",
-      "Healthcare AI",
-      "Responsible AI"
+      "Artificial Intelligence in Healthcare and Education",
+      "Biomedical Text Mining and Ontologies",
+      "Topic Modeling"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -40,7 +59,7 @@
     "doi": "10.1016/j.knosys.2026.115750",
     "url": "https://doi.org/10.1016/j.knosys.2026.115750",
     "abstract": "In the evolving digital landscape, it is crucial to study the dynamics of cyberattacks and defences. This study uses an Evolutionary Game Theory (EGT) framework to investigate the evolutionary dynamics of attacks and defences in cyberspace. We develop a two-population asymmetric game between attacker and defender to capture the essential factors of costs, potential benefits, and the probability of successful defences. Through mathematical analysis and numerical simulations, we find that systems with high defence intensities (at least 80%) show stability with minimal attack frequencies (at most 10%), whereas low-defence environments (lower than 50%) show instability and are vulnerable to attacks. We simulate 100,000 randomly sampled games and observe three key results: (i) the defend and attack equilibrium remains stable in 39.8% of configurations; (ii) increasing the defence success rate from 0.2 to 0.8 reduces the frequency of successful attacks by nearly 50%; and (iii) in over 80% of sampled games the system converges to a stable boundary equilibrium, indicating robust evolutionary dynamics. We validate these outcomes using a public dataset of real-world cyber incidents (2004–2020). Our theoretical findings align with this historical data, demonstrating the interdisciplinary impact, such as fraud detection, risk management and cybersecurity decision-making. Our EGT framework uniquely captures co-evolving attacker-defender populations, achieves stable equilibrium outcomes, and demonstrates robustness through large-scale random game analysis and social welfare evaluation. Overall, our analysis suggests that adaptive cybersecurity strategies based on EGT can improve resource allocation, enhance system resilience, and reduce the overall risk of cyberattacks. By incorporating real-world data, this study demonstrates the applicability of EGT in addressing the evolving nature of cyber threats and the need for secure digital ecosystems through strategic planning and proactive defence measures.",
-    "cited_by_count": 12,
+    "cited_by_count": 13,
     "referenced_works": [
       "https://openalex.org/W1966741850",
       "https://openalex.org/W1967829443",
@@ -121,8 +140,9 @@
       "https://openalex.org/W4412438655"
     ],
     "themes": [
-      "Evolutionary game theory",
-      "Cybersecurity"
+      "Information and Cyber Security",
+      "Evolutionary Game Theory and Cooperation",
+      "Network Security and Intrusion Detection"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -164,8 +184,46 @@
     "doi": "10.1016/j.amc.2026.130374",
     "url": "https://doi.org/10.1016/j.amc.2026.130374",
     "abstract": "AI-assisted cybersecurity systems are characterised by continuous adaptation between attackers and defenders, making evolutionary game theory a natural framework for studying their long-term behaviour. However, existing evolutionary cybersecurity models have primarily focused on homogeneous interactions, providing limited understanding of how population structure influences cyber attack–defence dynamics. In this paper, we develop a mixed-role evolutionary game in which adaptive cyber agents can exhibit both offensive and defensive behaviours, and investigate its dynamics in well-mixed and structured populations. The proposed framework combines stochastic evolutionary analysis with large-scale agent-based simulations to examine how interaction structure shapes long-run strategic behaviour. Our results reveal a fundamental difference between global and local interactions. While well-mixed populations exhibit broad coexistence between attacking and defensive strategies, structured populations generate well-defined evolutionary regimes in which secure defensive behaviour becomes dominant over a much larger region of the parameter space. Spatial analysis further shows that neighbouring defenders naturally form resilient clusters that suppress persistent attacks through network reciprocity. These findings demonstrate that interaction structure is a fundamental determinant of AI-assisted cybersecurity evolution and suggest that organising defensive agents through local networked interactions can substantially improve long-term cyber resilience without requiring additional defensive incentives.",
-    "cited_by_count": 0,
-    "referenced_works": [],
+    "cited_by_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W1967829443",
+      "https://openalex.org/W1992195122",
+      "https://openalex.org/W2001014153",
+      "https://openalex.org/W2024845611",
+      "https://openalex.org/W2035945778",
+      "https://openalex.org/W2060490410",
+      "https://openalex.org/W2062000381",
+      "https://openalex.org/W2110120522",
+      "https://openalex.org/W2118847390",
+      "https://openalex.org/W2156173537",
+      "https://openalex.org/W2167062553",
+      "https://openalex.org/W2612172766",
+      "https://openalex.org/W2618208446",
+      "https://openalex.org/W2784241349",
+      "https://openalex.org/W2922456755",
+      "https://openalex.org/W2931139464",
+      "https://openalex.org/W2964224358",
+      "https://openalex.org/W3090687309",
+      "https://openalex.org/W3183755031",
+      "https://openalex.org/W3206777315",
+      "https://openalex.org/W3213443313",
+      "https://openalex.org/W4211114118",
+      "https://openalex.org/W4214938478",
+      "https://openalex.org/W4304092837",
+      "https://openalex.org/W4312884727",
+      "https://openalex.org/W4324066120",
+      "https://openalex.org/W4389267298",
+      "https://openalex.org/W4393943019",
+      "https://openalex.org/W4416017621",
+      "https://openalex.org/W7125431933",
+      "https://openalex.org/W7134888771",
+      "https://openalex.org/W7140102625",
+      "https://openalex.org/W7140130601",
+      "https://openalex.org/W7140778902",
+      "https://openalex.org/W7163563399",
+      "https://openalex.org/W7167285067",
+      "https://openalex.org/W7223694441"
+    ],
     "themes": [
       "Evolutionary Game Theory and Cooperation",
       "Information and Cyber Security",
@@ -189,7 +247,7 @@
     "doi": "10.3389/fphy.2026.1984375",
     "url": "https://doi.org/10.3389/fphy.2026.1984375",
     "abstract": "Cybersecurity is increasingly recognised as a complex adaptive socio-technical system in which security outcomes emerge from the interactions of attackers, defenders, users, organisations, regulators, and autonomous artificial intelligence (AI) agents. These interactions generate adaptive feedback loops, strategic behaviour, information diffusion, and network effects that drive the evolution of cyber threats and defences. Consequently, phenomena such as attack propagation, cyber-risk contagion, cascading failures, and systemic resilience cannot be fully understood through static or purely technical perspectives. Although evolutionary game theory (EGT), complex systems science, network science, behavioural research, and cyber economics have each provided valuable insights, the literature remains fragmented, with no unified perspective for explaining cybersecurity as an evolving socio-technical ecosystem. This review develops the concept of Social Physics of Cybersecurity as an interdisciplinary perspective that brings these approaches together with human-AI interaction to explain how collective security outcomes emerge from adaptive interactions within interconnected cyber ecosystems. We synthesise research on attacker-defender co-evolution, finite and structured population dynamics, cyber contagion, critical transitions, systemic cyber risk, and the growing role of AI-enabled multi-agent systems. Building on these perspectives, we propose a unified multilevel view of cybersecurity that links individual strategic behaviour, network-level interactions, and system-wide resilience. We argue that cybersecurity should be understood as a social-physical phenomenon in which resilience and vulnerability emerge from the collective dynamics of interacting human and artificial agents. Finally, we identify key research opportunities for developing empirically grounded, data-driven, and AI-enabled models capable of predicting, analysing, and governing increasingly interconnected and autonomous cyber ecosystems.",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "referenced_works": [
       "https://openalex.org/W1925725102",
       "https://openalex.org/W1942126522",
@@ -305,7 +363,7 @@
     "doi": "10.1016/j.chaos.2026.118728",
     "url": "https://doi.org/10.1016/j.chaos.2026.118728",
     "abstract": "The growing integration of AI into cybersecurity is reshaping the balance between attackers and defenders. When access to advanced AI-enabled defence tools is uneven, resource-limited defenders may be unable to adopt effective protection, creating persistent system vulnerabilities. We study the impact of differential AI access using an evolutionary game-theoretic model in a finite population. We first show that when high-capability defence is costly, the population is driven toward low-cost, weak-defence behaviour, sustaining attacks and weakening long-run security. To address this problem, we introduce differential access to AI defence tools by allowing defenders to choose between low- and high-capability protection based on their resources. We then examine the role of a small group of committed defenders who always adopt strong defence and influence others through social learning. Although commitment increases the prevalence of strong defence, it alone cannot stabilise secure outcomes due to high defence costs. We therefore incorporate a targeted subsidy to remove the cost disadvantage from committed defenders. Our analysis shows that subsidised commitment significantly increases strong defence adoption, suppresses successful attacks, and improves overall system resilience. Simulations across a broad parameter space confirm that subsidies consistently outperform commitment alone. In addition, social-welfare analysis shows improved defender outcomes while keeping attacker gains low. These findings suggest that targeted support for key defenders can be an effective mechanism for stabilising cybersecurity in AI-driven environments and provide a theoretical bridge between cybersecurity policy, AI governance, and strategic allocation of defensive AI capabilities.",
-    "cited_by_count": 4,
+    "cited_by_count": 5,
     "referenced_works": [
       "https://openalex.org/W220156613",
       "https://openalex.org/W1821620939",
@@ -336,7 +394,9 @@
       "https://openalex.org/W4224441305",
       "https://openalex.org/W4293057372",
       "https://openalex.org/W4382929833",
+      "https://openalex.org/W4387294207",
       "https://openalex.org/W4387364139",
+      "https://openalex.org/W4387508266",
       "https://openalex.org/W4388915164",
       "https://openalex.org/W4393970651",
       "https://openalex.org/W4394724573",
@@ -348,16 +408,19 @@
       "https://openalex.org/W4411715724",
       "https://openalex.org/W4412736476",
       "https://openalex.org/W4413025547",
+      "https://openalex.org/W4415130152",
       "https://openalex.org/W4415164586",
       "https://openalex.org/W4416261665",
+      "https://openalex.org/W4416447651",
       "https://openalex.org/W7124842270",
       "https://openalex.org/W7134888771",
-      "https://openalex.org/W7140102625"
+      "https://openalex.org/W7140102625",
+      "https://openalex.org/W7141441441"
     ],
     "themes": [
-      "Evolutionary game theory",
-      "Cybersecurity",
-      "AI governance"
+      "Information and Cyber Security",
+      "Evolutionary Game Theory and Cooperation",
+      "Game Theory and Applications"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -379,11 +442,17 @@
     "url": "https://openalex.org/W7161092052",
     "abstract": "",
     "cited_by_count": 0,
-    "referenced_works": [],
+    "referenced_works": [
+      "https://openalex.org/W4387294207",
+      "https://openalex.org/W4387508266",
+      "https://openalex.org/W4415130152",
+      "https://openalex.org/W4416447651",
+      "https://openalex.org/W7141441441"
+    ],
     "themes": [
-      "Evolutionary game theory",
-      "Cybersecurity",
-      "AI governance"
+      "Information and Cyber Security",
+      "Evolutionary Game Theory and Cooperation",
+      "Game Theory and Applications"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -451,11 +520,25 @@
     "doi": "10.48550/arxiv.2501.08471",
     "url": "https://doi.org/10.48550/arxiv.2501.08471",
     "abstract": "Human Activity Recognition (HAR) has gained significant importance with the growing use of sensor-equipped devices and large datasets. This paper evaluates the performance of three categories of models : classical machine learning, deep learning architectures, and Restricted Boltzmann Machines (RBMs) using five key benchmark datasets of HAR (UCI-HAR, OPPORTUNITY, PAMAP2, WISDM, and Berkeley MHAD). We assess various models, including Decision Trees, Random Forests, Convolutional Neural Networks (CNN), and Deep Belief Networks (DBNs), using metrics such as accuracy, precision, recall, and F1-score for a comprehensive comparison. The results show that CNN models offer superior performance across all datasets, especially on the Berkeley MHAD. Classical models like Random Forest do well on smaller datasets but face challenges with larger, more complex data. RBM-based models also show notable potential, particularly for feature learning. This paper offers a detailed comparison to help researchers choose the most suitable model for HAR tasks.",
-    "cited_by_count": 6,
-    "referenced_works": [],
+    "cited_by_count": 10,
+    "referenced_works": [
+      "https://openalex.org/W1546411676",
+      "https://openalex.org/W1924770834",
+      "https://openalex.org/W2273396394",
+      "https://openalex.org/W2344284192",
+      "https://openalex.org/W3001684486",
+      "https://openalex.org/W3042228882",
+      "https://openalex.org/W3125021120",
+      "https://openalex.org/W3135493668",
+      "https://openalex.org/W4384111941",
+      "https://openalex.org/W4394469907",
+      "https://openalex.org/W6963732718",
+      "https://openalex.org/W6963848809"
+    ],
     "themes": [
-      "Machine learning",
-      "Healthcare AI"
+      "Context-Aware Activity Recognition Systems",
+      "Gait Recognition and Analysis",
+      "Time Series Analysis and Forecasting"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -490,8 +573,9 @@
       "https://openalex.org/W4394893856"
     ],
     "themes": [
-      "Cybersecurity",
-      "Blockchain"
+      "Blockchain Technology Applications and Security",
+      "Blockchain Technology in Education and Learning",
+      "Pharmaceutical Quality and Counterfeiting"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -526,7 +610,12 @@
     "url": "https://doi.org/10.1162/isal.a.918",
     "abstract": "When developers of artificial intelligence (AI) products need to decide between profit and safety for the users, they likely choose profit. Untrustworthy AI technology must come packaged with tangible negative consequences. Here, we envisage those consequences as the loss of reputation caused by media coverage of their misdeeds, disseminated to the public. We explore whether media coverage has the potential to push AI creators into the production of safe products, enabling widespread adoption of AI technology. We created artificial populations of self-interested creators and users and studied them through the lens of evolutionary game theory. Our results reveal that media is indeed able to foster cooperation between creators and users, but not always. Cooperation does not evolve if the quality of the information provided by the media is not reliable enough, or if the costs of either accessing media or ensuring safety are too high. By shaping public perception and holding developers accountable, media emerges as a powerful soft regulator – guiding AI safety even in the absence of formal government oversight.",
     "cited_by_count": 1,
-    "referenced_works": [],
+    "referenced_works": [
+      "https://openalex.org/W4406975817",
+      "https://openalex.org/W4407806359",
+      "https://openalex.org/W4414829248",
+      "https://openalex.org/W4416033221"
+    ],
     "themes": [
       "Evolutionary Game Theory and Cooperation",
       "Ethics and Social Impacts of AI",
@@ -564,8 +653,24 @@
     "doi": "10.48550/arxiv.2504.08640",
     "url": "https://doi.org/10.48550/arxiv.2504.08640",
     "abstract": "There is general agreement that fostering trust and cooperation within the AI development ecosystem is essential to promote the adoption of trustworthy AI systems. By embedding Large Language Model (LLM) agents within an evolutionary game-theoretic framework, this paper investigates the complex interplay between AI developers, regulators and users, modelling their strategic choices under different regulatory scenarios. Evolutionary game theory (EGT) is used to quantitatively model the dilemmas faced by each actor, and LLMs provide additional degrees of complexity and nuances and enable repeated games and incorporation of personality traits. Our research identifies emerging behaviours of strategic AI agents, which tend to adopt more \"pessimistic\" (not trusting and defective) stances than pure game-theoretic agents. We observe that, in case of full trust by users, incentives are effective to promote effective regulation; however, conditional trust may deteriorate the \"social pact\". Establishing a virtuous feedback between users' trust and regulators' reputation thus appears to be key to nudge developers towards creating safe AI. However, the level at which this trust emerges may depend on the specific LLM used for testing. Our results thus provide guidance for AI regulation systems, and help predict the outcome of strategic LLM agents, should they be used to aid regulation itself.",
-    "cited_by_count": 3,
-    "referenced_works": [],
+    "cited_by_count": 13,
+    "referenced_works": [
+      "https://openalex.org/W4362515116",
+      "https://openalex.org/W4390041563",
+      "https://openalex.org/W4391591653",
+      "https://openalex.org/W4398133596",
+      "https://openalex.org/W4399353795",
+      "https://openalex.org/W4405033318",
+      "https://openalex.org/W4406975817",
+      "https://openalex.org/W4407759301",
+      "https://openalex.org/W4407806359",
+      "https://openalex.org/W4410553894",
+      "https://openalex.org/W4411638692",
+      "https://openalex.org/W4412438655",
+      "https://openalex.org/W4415335345",
+      "https://openalex.org/W4416033221",
+      "https://openalex.org/W6966624887"
+    ],
     "themes": [
       "Evolutionary Game Theory and Cooperation",
       "Ethics and Social Impacts of AI",
@@ -588,12 +693,23 @@
     "doi": "10.48550/arxiv.2512.03097",
     "url": "https://doi.org/10.48550/arxiv.2512.03097",
     "abstract": "The integration of large language models (LLMs) into healthcare IoT systems promises faster decisions and improved medical support. LLMs are also deployed as multi-agent teams to assist AI doctors by debating, voting, or advising on decisions. However, when multiple assistant agents interact, coordinated adversaries can collude to create false consensus, pushing an AI doctor toward harmful prescriptions. We develop an experimental framework with scripted and unscripted doctor agents, adversarial assistants, and a verifier agent that checks decisions against clinical guidelines. Using 50 representative clinical questions, we find that collusion drives the Attack Success Rate (ASR) and Harmful Recommendation Rates (HRR) up to 100% in unprotected systems. In contrast, the verifier agent restores 100% accuracy by blocking adversarial consensus. This work provides the first systematic evidence of collusion risk in AI healthcare and demonstrates a practical, lightweight defence that ensures guideline fidelity.",
-    "cited_by_count": 2,
-    "referenced_works": [],
+    "cited_by_count": 5,
+    "referenced_works": [
+      "https://openalex.org/W2798877128",
+      "https://openalex.org/W4311991106",
+      "https://openalex.org/W4399694266",
+      "https://openalex.org/W4403753151",
+      "https://openalex.org/W4407806359",
+      "https://openalex.org/W4414829248",
+      "https://openalex.org/W4417182809",
+      "https://openalex.org/W4417302326",
+      "https://openalex.org/W6891925823",
+      "https://openalex.org/W7196961442"
+    ],
     "themes": [
-      "Multi-agent AI",
-      "AI safety",
-      "Healthcare AI"
+      "Adversarial Robustness in Machine Learning",
+      "Artificial Intelligence in Healthcare and Education",
+      "Privacy-Preserving Technologies in Data"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -627,8 +743,16 @@
     "doi": "10.48550/arxiv.2503.09858",
     "url": "https://doi.org/10.48550/arxiv.2503.09858",
     "abstract": "This paper investigates the complex interplay between AI developers, regulators, users, and the media in fostering trustworthy AI systems. Using evolutionary game theory and large language models (LLMs), we model the strategic interactions among these actors under different regulatory regimes. The research explores two key mechanisms for achieving responsible governance, safe AI development and adoption of safe AI: incentivising effective regulation through media reporting, and conditioning user trust on commentariats' recommendation. The findings highlight the crucial role of the media in providing information to users, potentially acting as a form of \"soft\" regulation by investigating developers or regulators, as a substitute to institutional AI regulation (which is still absent in many regions). Both game-theoretic analysis and LLM-based simulations reveal conditions under which effective regulation and trustworthy AI development emerge, emphasising the importance of considering the influence of different regulatory regimes from an evolutionary game-theoretic perspective. The study concludes that effective governance requires managing incentives and costs for high quality commentaries.",
-    "cited_by_count": 6,
-    "referenced_works": [],
+    "cited_by_count": 13,
+    "referenced_works": [
+      "https://openalex.org/W4362515116",
+      "https://openalex.org/W4391591653",
+      "https://openalex.org/W4398133596",
+      "https://openalex.org/W4399353795",
+      "https://openalex.org/W4405033318",
+      "https://openalex.org/W4407806359",
+      "https://openalex.org/W4412438655"
+    ],
     "themes": [
       "Ethics and Social Impacts of AI",
       "Digitalization, Law, and Regulation",
@@ -682,8 +806,9 @@
     "cited_by_count": 0,
     "referenced_works": [],
     "themes": [
-      "Responsible AI",
-      "Machine learning"
+      "Ethics and Social Impacts of AI",
+      "Imbalanced Data Classification Techniques",
+      "Explainable Artificial Intelligence (XAI)"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -754,8 +879,9 @@
       "https://openalex.org/W4414747553"
     ],
     "themes": [
-      "Edge AI",
-      "Machine learning"
+      "Advanced Neural Network Applications",
+      "Remote-Sensing Image Classification",
+      "IoT and Edge/Fog Computing"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -788,8 +914,9 @@
       "https://openalex.org/W4414682060"
     ],
     "themes": [
-      "AI safety",
-      "Cybersecurity"
+      "Safety Systems Engineering in Autonomy",
+      "Explainable Artificial Intelligence (XAI)",
+      "Adversarial Robustness in Machine Learning"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -808,11 +935,12 @@
     "doi": "10.48550/arxiv.2412.17527",
     "url": "https://doi.org/10.48550/arxiv.2412.17527",
     "abstract": "This research presents an innovative approach to cancer diagnosis and prediction using explainable Artificial Intelligence (XAI) and deep learning techniques. With cancer causing nearly 10 million deaths globally in 2020, early and accurate diagnosis is crucial. Traditional methods often face challenges in cost, accuracy, and efficiency. Our study develops an AI model that provides precise outcomes and clear insights into its decision-making process, addressing the \"black box\" problem of deep learning models. By employing XAI techniques, we enhance interpretability and transparency, building trust among healthcare professionals and patients. Our approach leverages neural networks to analyse extensive datasets, identifying patterns for cancer detection. This model has the potential to revolutionise diagnosis by improving accuracy, accessibility, and clarity in medical decision-making, possibly leading to earlier detection and more personalised treatment strategies. Furthermore, it could democratise access to high-quality diagnostics, particularly in resource-limited settings, contributing to global health equity. The model's applications extend beyond cancer diagnosis, potentially transforming various aspects of medical decision-making and saving millions of lives worldwide.",
-    "cited_by_count": 12,
+    "cited_by_count": 13,
     "referenced_works": [],
     "themes": [
-      "Healthcare AI",
-      "Responsible AI"
+      "Explainable Artificial Intelligence (XAI)",
+      "AI in cancer detection",
+      "Artificial Intelligence in Healthcare"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -856,8 +984,9 @@
       "https://openalex.org/W6607982746"
     ],
     "themes": [
-      "Healthcare AI",
-      "Edge AI"
+      "IoT and Edge/Fog Computing",
+      "Artificial Intelligence in Healthcare",
+      "Internet of Things and AI"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -919,7 +1048,7 @@
     "doi": "10.1109/dese60595.2023.10468896",
     "url": "https://doi.org/10.1109/dese60595.2023.10468896",
     "abstract": "In today’s job market, finding a suitable job is a complex task that requires innovation to ease the complexity of finding the job. As technology shapes the business landscape, a deeper understanding of the Advance Natural Language Processing (NLP) and using it properly will elevate the solution of finding the match between candidates and employers. In this research, comparative approach between GPT-2 and T5 model has been done to find out the best model for the job matching chatbot. Also, in this chatbot multiple criteria decision making method has been used to find the best job related to the user’s requirement. The research novelty is a chatbot that works based on the Transformer-based Text-to-Text Transfer Transformer (T5) model and compare it to GPT-2 to address the challenges of finding the best job based on job seekers’ preferences and also compare both generated answers to realise the accuracy of each model in job matching chatbot. GPT-2 and T5 both are excel in natural language understanding tasks, enabling us to parse and map user queries to many job preferences, ensuring a comprehensive understanding of user skills, and also they can provide a high rate of accuracy and performance in the natural language tasks. The research’s contribution focuses on preference job matching chatbot application, which effectively bridges the gap between employers and job seekers. Using context-based meanings of specific words and new terms defined in the conversation, the model generates responses based on user input. A seamless connection between job seekers and potential employers is made possible by our approach to Human Resources technology, which serves as a more personalised, effective, and user-friendly job matching system. The model tokenises words and generates test cases based on them. By utilising NLP techniques, it will help to ensure that all scenarios are taken into account.",
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "referenced_works": [
       "https://openalex.org/W2101746535",
       "https://openalex.org/W2145318100",
@@ -935,8 +1064,9 @@
       "https://openalex.org/W6681595143"
     ],
     "themes": [
-      "Machine learning",
-      "Responsible AI"
+      "AI and HR Technologies",
+      "Topic Modeling",
+      "AI in Service Interactions"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -1102,7 +1232,7 @@
     "doi": "10.1109/access.2021.3087109",
     "url": "https://doi.org/10.1109/access.2021.3087109",
     "abstract": "Cyber Supply Chain (CSC) system is complex which involves different sub-systems performing various tasks. Security in supply chain is challenging due to the inherent vulnerabilities and threats from any part of the system which can be exploited at any point within the supply chain. This can cause a severe disruption on the overall business continuity. Therefore, it is paramount important to understand and predicate the threats so that organization can undertake necessary control measures for the supply chain security. Cyber Threat Intelligence (CTI) provides an intelligence analysis to discover unknown to known threats using various properties including threat actor skill and motivation, Tactics, Techniques, and Procedure (TT and P), and Indicator of Compromise (IoC). This paper aims to analyse and predicate threats to improve cyber supply chain security. We have applied Cyber Threat Intelligence (CTI) with Machine Learning (ML) techniques to analyse and predict the threats based on the CTI properties. That allows to identify the inherent CSC vulnerabilities so that appropriate control actions can be undertaken for the overall cybersecurity improvement. To demonstrate the applicability of our approach, CTI data is gathered and a number of ML algorithms, i.e., Logistic Regression (LG), Support Vector Machine (SVM), Random Forest (RF), and Decision Tree (DT), are used to develop predictive analytics using the Microsoft Malware Prediction dataset. The experiment considers attack and TTP as input parameters and vulnerabilities and Indicators of compromise (IoC) as output parameters. The results relating to the prediction reveal that Spyware/Ransomware and spear phishing are the most predictable threats in CSC. We have also recommended relevant controls to tackle these threats. We advocate using CTI data for the ML predicate model for the overall CSC cyber security improvement.",
-    "cited_by_count": 130,
+    "cited_by_count": 143,
     "referenced_works": [
       "https://openalex.org/W243298746",
       "https://openalex.org/W1977555035",
@@ -1132,8 +1262,9 @@
       "https://openalex.org/W4239510810"
     ],
     "themes": [
-      "Cybersecurity",
-      "Machine learning"
+      "Network Security and Intrusion Detection",
+      "Information and Cyber Security",
+      "Advanced Malware Detection Techniques"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -1288,8 +1419,9 @@
       "https://openalex.org/W7008098649"
     ],
     "themes": [
-      "IoT",
-      "Distributed systems"
+      "Semantic Web and Ontologies",
+      "Advanced Database Systems and Queries",
+      "Data Stream Mining Techniques"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -1323,7 +1455,7 @@
     "authors": [
       "Zia Ush Shamszaman"
     ],
-    "venue": "TeesRep (Teesside University)",
+    "venue": "Teesside University Research Portal (Teesside University)",
     "doi": null,
     "url": "https://openalex.org/W3153536804",
     "abstract": "",
@@ -1380,8 +1512,9 @@
       "https://openalex.org/W3146105185"
     ],
     "themes": [
-      "IoT",
-      "Cybersecurity"
+      "Semantic Web and Ontologies",
+      "IoT and Edge/Fog Computing",
+      "Innovation in Digital Healthcare Systems"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -1400,7 +1533,7 @@
     "doi": "10.1155/2014/482873",
     "url": "https://doi.org/10.1155/2014/482873",
     "abstract": "The general goal of the Web-of-Objects (WoO) is to simplify object and application deployment, maintenance, and operation of IoT infrastructures. WoO also aim to provide user-centric IoT service by enabling object virtualization and semantic ontology based service composition. In WoO, semantic modeling of objects plays a distinguished role in achieving interoperability of device and service through semantic ontology model. In this paper, we propose a semantic functional module for user centric service composition in WoO platform. We design an ontology model for virtual object (ViO); it is the physical representation of real world objects. Consequently, we present a user-demand based service composition by showing an use case of WoO. In the proposed semantic based service composition approach, virtual object and composite virtual object are the key entity; this class of objects allows composing services from heterogeneous objects by following a service composition algorithm. This algorithm creates composite service along with the semantic description of that service. The proposed approach of service composition enhances the collaboration of objects as well as services. In the proposed system, user can search a service using natural language through the user interface; on the other hand, the service composition module creates the service by selecting the required objects dynamically.",
-    "cited_by_count": 32,
+    "cited_by_count": 34,
     "referenced_works": [
       "https://openalex.org/W67142796",
       "https://openalex.org/W68830518",
@@ -1421,8 +1554,9 @@
       "https://openalex.org/W4285719527"
     ],
     "themes": [
-      "IoT",
-      "Distributed systems"
+      "Service-Oriented Architecture and Web Services",
+      "Semantic Web and Ontologies",
+      "IoT and Edge/Fog Computing"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -1497,8 +1631,9 @@
       "https://openalex.org/W4241123552"
     ],
     "themes": [
-      "Distributed systems",
-      "IoT"
+      "Network Traffic and Congestion Control",
+      "Software-Defined Networks and 5G",
+      "Peer-to-Peer Network Technologies"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"

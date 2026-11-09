@@ -12,7 +12,7 @@
     "doi": "10.1109/jiot.2017.2779106",
     "url": "https://doi.org/10.1109/jiot.2017.2779106",
     "abstract": "The admiration of social networks (SNs) and the advent of the Internet of Things (IoT) direct to a new research paradigm called Social IoT (SIoT), where real-world physical objects can form their own SN like the human SN. This effort leads to an immense possibility of unique applications for a smart cognitive society. However, it is still a challenge to explore these applications due to a lack of an adequate SIoT framework, where SIoT nodes can be controlled, managed, and monitored in realtime under a cognitive framework. Hence, in this paper, we propose a framework to create, manage, control, and monitor the SIoT objects intelligently and cognitively in real-time. In our proposed framework, we enable virtual representation of realworld objects known as virtual objects (VOs) and ensure their relationship semantically to compose new services by combining VOs and called composite VOs. Additionally, we identify special skills (e.g., expertise, and/or willingness to help others, etc.) as abstract objects. We also enable real-time interaction by using stream processing techniques. We also evaluated the performance of VO selection to understand the resource consumption and latency during the process.",
-    "cited_by_count": 26,
+    "cited_by_count": 27,
     "referenced_works": [
       "https://openalex.org/W38708963",
       "https://openalex.org/W1574222638",
@@ -105,7 +105,7 @@
     "doi": "10.1007/978-3-319-69459-7_13",
     "url": "https://doi.org/10.1007/978-3-319-69459-7_13",
     "abstract": "",
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "referenced_works": [
       "https://openalex.org/W10089010",
       "https://openalex.org/W1509051222",
@@ -121,28 +121,6 @@
       "Advanced Database Systems and Queries",
       "Semantic Web and Ontologies",
       "Advanced Software Engineering Methodologies"
-    ],
-    "source": "OpenAlex",
-    "verification": "openalex-author-id"
-  },
-  {
-    "id": "oa-W2977865058",
-    "openalex_id": "https://openalex.org/W2977865058",
-    "title": "Enabling smart societies using social internet of things: A semantic framework for real-time virtual object management",
-    "year": 2019,
-    "authors": [
-      "Zia Ush Shamszaman"
-    ],
-    "venue": "ARAN (University of Galway Research Repository) (Ollscoil na Gaillimhe – University of Galway)",
-    "doi": "10.13025/17869",
-    "url": "https://doi.org/10.13025/17869",
-    "abstract": "A wide variety of unique smart services and applications are evolved based on Internet of Things (IoT) for resolving numerous issues in daily life, social community, agriculture, health sector, entertainment sector, city administration, environment, weather, road traffic, and many more. As a result, sensors, devices, and humans are required to associate with each other to forma new service. To get the best out of the IoT objects a platform is required to integrate different type of objects so that objects can associate with each other and can make relation like the human society. In recent years, humans social interaction got a new edge through a profile-based online social network. The admiration of social networks and the advent of the IoT direct to a new research paradigm called Social IoT (SIoT), where real-world objects can participate in an online social network like the human social network. This effort leads to an immense possibility of unique applications for a smart cognitive society. However, it is still a challenge to explore these applications due to a lack of an adequate SIoT framework, where SIoT nodes can be managed and monitored in real-time under a cognitive framework. As these IoT nodes and services are going to co-exist with us (human), we foresee establishing of cognitive contributory skills where IoT nodes, services and even human skills can collectively forma cognitive society to share resources, information and skills. Hence, in this thesis, we propose a framework to manage and monitor the SIoT nodes intelligently and cognitively in real-time. In our proposed framework, we enable virtual representation of real-world objects known as Virtual Object (VO) and ensure their relationship semantically to compose new services by combining VOs and called Composite VO (CVO). Additionally, we identify special skills (e.g., human expertise and skill as an Abstract Object (AO). However, building such intelligent societies automatically using SIoT is a big challenge, mainly due to the complexity of the systems and availability of a large number of nodes. In such scenarios, it is not trivial to find a suitable SIoT service node correctly to avail a service in real-time. We also propose virtual object management and selection process for the SIoT platform and QoS aware object selection using Integer Programming (IP) and Multiple Criteria DecisionMaking (MCDM) to find a right service at the right time.",
-    "cited_by_count": 0,
-    "referenced_works": [],
-    "themes": [
-      "IoT and Edge/Fog Computing",
-      "Internet of Things and AI",
-      "Semantic Web and Ontologies"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
@@ -182,12 +160,41 @@
     "doi": "10.48550/arxiv.2603.24742",
     "url": "https://doi.org/10.48550/arxiv.2603.24742",
     "abstract": "As the capabilities and adoption of Artificial Intelligence (AI) systems grow, trust in these AI systems is an increasingly urgent concern. Much research has focused on models of AI governance and has primarily examined incentives for safe development and effective regulation. Hence they typically represented users trust as a one-shot adoption choice rather than as a dynamic, evolving process shaped by repeated interactions. We instead model trust as the dynamic choice of reduced monitoring in a repeated, asymmetric interaction between users and AI developers, where checking developers' behaviour is costly. Using evolutionary game theory, we study how users' strategies of trust and developers' strategies of providing safe (compliant) or unsafe (non-compliant) AI co-evolve under different levels of monitoring cost and institutional regimes. We conduct the analysis on both imitation-based and learning-based perspectives, with the stochastic finite-population dynamics, the infinite-population replicator analysis and the reinforcement learning analysis. We find three robust long-run regimes: no adoption by users while developers provide unsafe AI, unsafe but widely adopted systems, and safe systems that are widely adopted. Only the last is desirable, and it arises when penalties for unsafe behaviour exceed the extra cost of safety and users can still afford to monitor at least occasionally. Our results formally support governance proposals that emphasise transparency, low-cost monitoring, and meaningful sanctions, and they show that neither regulation alone nor blind user trust is sufficient to prevent the drift towards unsafe or low-adoption outcomes.",
-    "cited_by_count": 0,
-    "referenced_works": [],
+    "cited_by_count": 2,
+    "referenced_works": [
+      "https://openalex.org/W2115364156",
+      "https://openalex.org/W3110959560",
+      "https://openalex.org/W4414829248",
+      "https://openalex.org/W4416033221",
+      "https://openalex.org/W7117315209",
+      "https://openalex.org/W7138963901"
+    ],
     "themes": [
       "Ethics and Social Impacts of AI",
       "Evolutionary Game Theory and Cooperation",
       "Access Control and Trust"
+    ],
+    "source": "OpenAlex",
+    "verification": "openalex-author-id"
+  },
+  {
+    "id": "oa-W2977865058",
+    "openalex_id": "https://openalex.org/W2977865058",
+    "title": "Enabling smart societies using social internet of things: A semantic framework for real-time virtual object management",
+    "year": 2019,
+    "authors": [
+      "Zia Ush Shamszaman"
+    ],
+    "venue": "ARAN (University of Galway Research Repository) (Ollscoil na Gaillimhe – University of Galway)",
+    "doi": "10.13025/17869",
+    "url": "https://doi.org/10.13025/17869",
+    "abstract": "A wide variety of unique smart services and applications are evolved based on Internet of Things (IoT) for resolving numerous issues in daily life, social community, agriculture, health sector, entertainment sector, city administration, environment, weather, road traffic, and many more. As a result, sensors, devices, and humans are required to associate with each other to forma new service. To get the best out of the IoT objects a platform is required to integrate different type of objects so that objects can associate with each other and can make relation like the human society. In recent years, humans social interaction got a new edge through a profile-based online social network. The admiration of social networks and the advent of the IoT direct to a new research paradigm called Social IoT (SIoT), where real-world objects can participate in an online social network like the human social network. This effort leads to an immense possibility of unique applications for a smart cognitive society. However, it is still a challenge to explore these applications due to a lack of an adequate SIoT framework, where SIoT nodes can be managed and monitored in real-time under a cognitive framework. As these IoT nodes and services are going to co-exist with us (human), we foresee establishing of cognitive contributory skills where IoT nodes, services and even human skills can collectively forma cognitive society to share resources, information and skills. Hence, in this thesis, we propose a framework to manage and monitor the SIoT nodes intelligently and cognitively in real-time. In our proposed framework, we enable virtual representation of real-world objects known as Virtual Object (VO) and ensure their relationship semantically to compose new services by combining VOs and called Composite VO (CVO). Additionally, we identify special skills (e.g., human expertise and skill as an Abstract Object (AO). However, building such intelligent societies automatically using SIoT is a big challenge, mainly due to the complexity of the systems and availability of a large number of nodes. In such scenarios, it is not trivial to find a suitable SIoT service node correctly to avail a service in real-time. We also propose virtual object management and selection process for the SIoT platform and QoS aware object selection using Integer Programming (IP) and Multiple Criteria DecisionMaking (MCDM) to find a right service at the right time.",
+    "cited_by_count": 0,
+    "referenced_works": [],
+    "themes": [
+      "IoT and Edge/Fog Computing",
+      "Internet of Things and AI",
+      "Semantic Web and Ontologies"
     ],
     "source": "OpenAlex",
     "verification": "openalex-author-id"
